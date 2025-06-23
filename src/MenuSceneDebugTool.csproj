@@ -1,0 +1,66 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net481</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>../mod/newest/plugins</OutputPath>
+    <PathMap>$(MSBuildProjectDirectory)=/$(SolutionName)</PathMap>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="../lib/*.dll">
+			<Private>false</Private>
+		</Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="ImGui.NET">
+	    <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\workshop\content\312520\3417372413\plugins\ImGui.NET.dll</HintPath>
+		  <Private>false</Private>
+	  </Reference>
+	  <Reference Include="ImNodes.NET">
+		  <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\workshop\content\312520\3417372413\plugins\ImNodes.NET.dll</HintPath>
+		  <Private>false</Private>
+	  </Reference>
+	  <Reference Include="ImPlot.NET">
+		  <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\workshop\content\312520\3417372413\plugins\ImPlot.NET.dll</HintPath>
+		  <Private>false</Private>
+	  </Reference>
+	  <Reference Include="rain-world-imgui-api">
+	    <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\workshop\content\312520\3417372413\plugins\rain-world-imgui-api.dll</HintPath>
+		  <Private>false</Private>
+	  </Reference>
+	  <Reference Include="UnityEngine.AssetBundleModule">
+	    <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Rain World\RainWorld_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+		  <Private>false</Private>
+	  </Reference>
+	  <Reference Include="UnityEngine.AudioModule">
+	    <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Rain World\RainWorld_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+		  <Private>false</Private>
+	  </Reference>
+	  <Reference Include="UnityEngine.InputLegacyModule">
+	    <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Rain World\RainWorld_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+		  <Private>false</Private>
+	  </Reference>
+	</ItemGroup>
+    
+  <Target Name="GenerateMod" AfterTargets="PostBuildEvent" Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <ItemGroup>
+      <RemovePlugins Include="../mod/newest/plugins/*.pdb" />
+    </ItemGroup>
+        
+    <Delete Files="@(RemovePlugins)" />
+  </Target>
+
+</Project>

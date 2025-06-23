@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\linda\\OneDrive\\Documents\\Rain Mods\\RW-Menuscene-Debug-Tool\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34CCAFBF-2DDB-4D1D-B403-E75BF5E76794}|MenuSceneDebugTool.csproj|c:\\users\\linda\\onedrive\\documents\\rain mods\\rw-menuscene-debug-tool\\src\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CCAFBF-2DDB-4D1D-B403-E75BF5E76794}|MenuSceneDebugTool.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CCAFBF-2DDB-4D1D-B403-E75BF5E76794}|MenuSceneDebugTool.csproj|c:\\users\\linda\\onedrive\\documents\\rain mods\\rw-menuscene-debug-tool\\src\\menusceneexplorer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CCAFBF-2DDB-4D1D-B403-E75BF5E76794}|MenuSceneDebugTool.csproj|solutionrelative:menusceneexplorer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CCAFBF-2DDB-4D1D-B403-E75BF5E76794}|MenuSceneDebugTool.csproj|c:\\users\\linda\\onedrive\\documents\\rain mods\\rw-menuscene-debug-tool\\src\\hooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CCAFBF-2DDB-4D1D-B403-E75BF5E76794}|MenuSceneDebugTool.csproj|solutionrelative:hooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CCAFBF-2DDB-4D1D-B403-E75BF5E76794}|MenuSceneDebugTool.csproj|c:\\users\\linda\\onedrive\\documents\\rain mods\\rw-menuscene-debug-tool\\src\\assets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CCAFBF-2DDB-4D1D-B403-E75BF5E76794}|MenuSceneDebugTool.csproj|solutionrelative:assets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CCAFBF-2DDB-4D1D-B403-E75BF5E76794}|MenuSceneDebugTool.csproj|c:\\users\\linda\\onedrive\\documents\\rain mods\\rw-menuscene-debug-tool\\src\\menuscenedebugtool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{34CCAFBF-2DDB-4D1D-B403-E75BF5E76794}|MenuSceneDebugTool.csproj|solutionrelative:menuscenedebugtool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Plugin.cs",
+              "DocumentMoniker": "C:\\Users\\linda\\OneDrive\\Documents\\Rain Mods\\RW-Menuscene-Debug-Tool\\src\\Plugin.cs",
+              "RelativeDocumentMoniker": "Plugin.cs",
+              "ToolTip": "C:\\Users\\linda\\OneDrive\\Documents\\Rain Mods\\RW-Menuscene-Debug-Tool\\src\\Plugin.cs",
+              "RelativeToolTip": "Plugin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T02:09:21.932Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuSceneDebugTool.csproj",
+              "DocumentMoniker": "C:\\Users\\linda\\OneDrive\\Documents\\Rain Mods\\RW-Menuscene-Debug-Tool\\src\\MenuSceneDebugTool.csproj",
+              "RelativeDocumentMoniker": "MenuSceneDebugTool.csproj",
+              "ToolTip": "C:\\Users\\linda\\OneDrive\\Documents\\Rain Mods\\RW-Menuscene-Debug-Tool\\src\\MenuSceneDebugTool.csproj",
+              "RelativeToolTip": "MenuSceneDebugTool.csproj",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-06T01:11:14.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Assets.cs",
+              "DocumentMoniker": "C:\\Users\\linda\\OneDrive\\Documents\\Rain Mods\\RW-Menuscene-Debug-Tool\\src\\Assets.cs",
+              "RelativeDocumentMoniker": "Assets.cs",
+              "ToolTip": "C:\\Users\\linda\\OneDrive\\Documents\\Rain Mods\\RW-Menuscene-Debug-Tool\\src\\Assets.cs",
+              "RelativeToolTip": "Assets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T21:35:44.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuSceneExplorer.cs",
+              "DocumentMoniker": "C:\\Users\\linda\\OneDrive\\Documents\\Rain Mods\\RW-Menuscene-Debug-Tool\\src\\MenuSceneExplorer.cs",
+              "RelativeDocumentMoniker": "MenuSceneExplorer.cs",
+              "ToolTip": "C:\\Users\\linda\\OneDrive\\Documents\\Rain Mods\\RW-Menuscene-Debug-Tool\\src\\MenuSceneExplorer.cs",
+              "RelativeToolTip": "MenuSceneExplorer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T01:06:41.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Hooks.cs",
+              "DocumentMoniker": "C:\\Users\\linda\\OneDrive\\Documents\\Rain Mods\\RW-Menuscene-Debug-Tool\\src\\Hooks.cs",
+              "RelativeDocumentMoniker": "Hooks.cs",
+              "ToolTip": "C:\\Users\\linda\\OneDrive\\Documents\\Rain Mods\\RW-Menuscene-Debug-Tool\\src\\Hooks.cs",
+              "RelativeToolTip": "Hooks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T01:09:40.336Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 190,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
