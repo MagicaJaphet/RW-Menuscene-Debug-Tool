@@ -1,0 +1,64 @@
+Idle_depth_explanation|Idle depths are used for the scene's random focus when the mouse is not being used, and can affect the blurriness of a scene in general when applicable. If no idle depths exist, the game chooses the random depth value of an image instead.
+Quick Menu|Quick Menu
+MenuScene Info|MenuScene Info
+Images|Images
+MenuScene Properties|MenuScene Properties
+Scene Blur|Scene Blur
+Load Slideshow|Load Slideshow
+Slideshow Properties|Slideshow Properties
+Starts|Starts
+Ends|Ends
+Crossfades|Crossfades
+Frames|Frames
+Add Crossfade|Add Crossfade
+Song|Song
+Audio Playback|Audio Playback
+Idle Depths|Idle Depths
+Choose a layer or existing crossfade|Choose a layer or existing crossfade
+slideshow_crossfade_explanation|Crossfades are used to trigger a fade between two or more images over the scene's display time. They are not implemented by default in Slugbase, and therefore require code to be properly implemented.
+Interactive Elements|Interactive Elements
+Slideshow Elements|Slideshow Elements
+Display Time|Display Time
+Camera Depth|Camera Depth
+Rewind|Rewind
+Pause|Pause
+Skip|Skip
+Play|Play
+Slideshow ID|Slideshow ID
+Play Selected Scene|Play Selected Scene
+Camera Keyframes|Camera Keyframes
+Keyframe Positions|Keyframe Positions
+Add Keyframe|Add Keyframe
+Duplicate|Duplicate
+Depth|Depth
+End|End
+Depth Images|Depth Images
+Flat Images|Flat Images
+Position|Position
+Alpha|Alpha
+Shader|Shader
+Name|Name
+Layer Positions|Layer Positions
+Layer Depths|Layer Depths
+Requires Depth Map|Requires Depth Map
+Add Layer|Add Layer
+Remove Layer|Remove Layer
+File Name|File Name
+shader_explanation|Shaders are used to change the way the pixels of the image are interpreted. Basic takes the image as it is with no extra steps, while other shaders involve various mathmatical applications. Depth maps are the black and red images included in base images, where red represents how much the camera should influence those pixels.
+Move Up|Move Up
+Move Down|Move Down
+Quick Slideshow Selector|Quick Slideshow Selector
+Confirm Deletion|Confirm Deletion
+WARNING|WARNING
+layer_deletion_warning|Are you sure you want to delete the currently selected layers? All information related to the current layers will be lost.
+Yes, delete layers|Yes, delete layers
+No, take me back|No, take me back
+Always Ask|Always Ask
+Scene Folder|Scene Folder
+Confirm Scene Folder Change|Confirm Scene Folder Change
+scene_folder_warning|WIP
+Yes, change folder|Yes, change folder
+Layer Alphas|Layer Alphas
+Time|Time
+Opacity|Opacity
+Timeline|Timeline
